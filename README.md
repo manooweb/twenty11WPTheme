@@ -15,6 +15,10 @@ Strings to replace
 - Twenty 11 WP Theme by My Theme Name
 - Twenty11WPTheme by MyThemeName
 
+Rename translation files in wp-content/languages/themes
+-------------------------------------------------------
+- twenty11wptheme-fr_FR.mo to mythemename-fr_FR.mo
+- twenty11WPtheme-fr_FR.po to twenty11WPtheme-fr_FR.po
 
 twenty11WPTheme
 ===============
@@ -31,3 +35,8 @@ Chaîne de caractères à remplacer
 - twenty11wptheme et renommer le nom du dossier du thème par montheme
 - Twenty 11 WP Theme par Mon Theme
 - Twenty11WPTheme par MonTheme
+
+Renommer les fichier de traduction dans le dosssier wp-content/languages/themes
+-------------------------------------------------------------------------------
+- twenty11wptheme-fr_FR.mo par montheme-fr_FR.mo
+- twenty11WPtheme-fr_FR.po par montheme-fr_FR.po
