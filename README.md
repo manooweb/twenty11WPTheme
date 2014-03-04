@@ -36,7 +36,7 @@ Chaîne de caractères à remplacer
 - Twenty 11 WP Theme par Mon Theme
 - Twenty11WPTheme par MonTheme
 
-Renommer les fichier de traduction dans le dosssier wp-content/languages/themes
+Renommer les fichier de traduction dans le dossier wp-content/languages/themes
 -------------------------------------------------------------------------------
 - twenty11wptheme-fr_FR.mo par montheme-fr_FR.mo
 - twenty11WPtheme-fr_FR.po par montheme-fr_FR.po
