@@ -216,7 +216,7 @@ get_header(); ?>
 					<?php if ( ! dynamic_sidebar( 'sidebar-2' ) ) : ?>
 
 						<?php
-						the_widget( 'Twenty11WPTheme_Ephemera_Widget', '', array( 'before_title' => '<h3 class="widget-title">', 'after_title' => '</h3>' ) );
+						the_widget( 'Twenty11WPTheme_Ephemera_Widget', '', array( 'before_title' => '<div class="widget-title">', 'after_title' => '</div>' ) );
 						?>
 
 					<?php endif; // end sidebar widget area ?>

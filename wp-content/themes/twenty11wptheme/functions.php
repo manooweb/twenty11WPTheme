@@ -444,8 +444,8 @@ function twenty11wptheme_widgets_init() {
 		'id' => 'sidebar-1',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => "</aside>",
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'before_title' => '<div class="widget-title">',
+		'after_title' => '</div>',
 	) );
 
 	register_sidebar( array(
@@ -454,8 +454,8 @@ function twenty11wptheme_widgets_init() {
 		'description' => __( 'The sidebar for the optional Showcase Template', 'twenty11wptheme' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => "</aside>",
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'before_title' => '<div class="widget-title">',
+		'after_title' => '</div>',
 	) );
 
 	register_sidebar( array(
@@ -464,8 +464,8 @@ function twenty11wptheme_widgets_init() {
 		'description' => __( 'An optional widget area for your site footer', 'twenty11wptheme' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => "</aside>",
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'before_title' => '<div class="widget-title">',
+		'after_title' => '</div>',
 	) );
 
 	register_sidebar( array(
@@ -474,8 +474,8 @@ function twenty11wptheme_widgets_init() {
 		'description' => __( 'An optional widget area for your site footer', 'twenty11wptheme' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => "</aside>",
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'before_title' => '<div class="widget-title">',
+		'after_title' => '</div>',
 	) );
 
 	register_sidebar( array(
@@ -484,8 +484,8 @@ function twenty11wptheme_widgets_init() {
 		'description' => __( 'An optional widget area for your site footer', 'twenty11wptheme' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => "</aside>",
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'before_title' => '<div class="widget-title">',
+		'after_title' => '</div>',
 	) );
 }
 add_action( 'widgets_init', 'twenty11wptheme_widgets_init' );
@@ -503,7 +503,7 @@ function twenty11wptheme_content_nav( $html_id ) {
 
 	if ( $wp_query->max_num_pages > 1 ) : ?>
 		<nav id="<?php echo esc_attr( $html_id ); ?>">
-			<h3 class="assistive-text"><?php _e( 'Post navigation', 'twenty11wptheme' ); ?></h3>
+			<div class="assistive-text"><?php _e( 'Post navigation', 'twenty11wptheme' ); ?></div>
 			<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'twenty11wptheme' ) ); ?></div>
 			<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'twenty11wptheme' ) ); ?></div>
 		</nav><!-- #nav-above -->

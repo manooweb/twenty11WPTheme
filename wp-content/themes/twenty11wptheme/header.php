@@ -130,7 +130,7 @@
 			<?php endif; ?>
 
 			<nav id="access" role="navigation">
-				<h3 class="assistive-text"><?php _e( 'Main menu', 'twenty11wptheme' ); ?></h3>
+				<div class="assistive-text"><?php _e( 'Main menu', 'twenty11wptheme' ); ?></div>
 				<?php /* Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff. */ ?>
 				<div class="skip-link"><a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to primary content', 'twenty11wptheme' ); ?>"><?php _e( 'Skip to primary content', 'twenty11wptheme' ); ?></a></div>
 				<div class="skip-link"><a class="assistive-text" href="#secondary" title="<?php esc_attr_e( 'Skip to secondary content', 'twenty11wptheme' ); ?>"><?php _e( 'Skip to secondary content', 'twenty11wptheme' ); ?></a></div>

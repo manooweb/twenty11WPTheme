@@ -16,14 +16,14 @@ if ( 'content' != $current_layout ) :
 			<?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
 
 				<aside id="archives" class="widget">
-					<h3 class="widget-title"><?php _e( 'Archives', 'twenty11wptheme' ); ?></h3>
+					<div class="widget-title"><?php _e( 'Archives', 'twenty11wptheme' ); ?></div>
 					<ul>
 						<?php wp_get_archives( array( 'type' => 'monthly' ) ); ?>
 					</ul>
 				</aside>
 
 				<aside id="meta" class="widget">
-					<h3 class="widget-title"><?php _e( 'Meta', 'twenty11wptheme' ); ?></h3>
+					<div class="widget-title"><?php _e( 'Meta', 'twenty11wptheme' ); ?></div>
 					<ul>
 						<?php wp_register(); ?>
 						<li><?php wp_loginout(); ?></li>
