@@ -18,7 +18,7 @@ Strings to replace
 Rename translation files in wp-content/languages/themes
 -------------------------------------------------------
 - twenty11wptheme-fr_FR.mo to mythemename-fr_FR.mo
-- twenty11WPtheme-fr_FR.po to twenty11WPtheme-fr_FR.po
+- twenty11WPtheme-fr_FR.po to mythemename-fr_FR.po
 
 twenty11WPTheme
 ===============
