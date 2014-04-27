@@ -20,6 +20,11 @@ Rename translation files in wp-content/languages/themes
 - twenty11wptheme-fr_FR.mo to mythemename-fr_FR.mo
 - twenty11WPtheme-fr_FR.po to mythemename-fr_FR.po
 
+In .po file 
+- replace Twenty 11 WP Theme by My Theme Name
+
+Regenerate .mo file with poedit for example
+
 twenty11WPTheme
 ===============
 Twenty 11 WP Theme est basé sur le thème Twenty Eleven pour WordPress
@@ -40,3 +45,9 @@ Renommer les fichier de traduction dans le dossier wp-content/languages/themes
 -------------------------------------------------------------------------------
 - twenty11wptheme-fr_FR.mo par montheme-fr_FR.mo
 - twenty11WPtheme-fr_FR.po par montheme-fr_FR.po
+
+Dans le fichier .po
+- remplacer Twenty 11 WP Theme by My Theme Name
+
+Regenerer le fichier .mo avec poedit par exemple
+
